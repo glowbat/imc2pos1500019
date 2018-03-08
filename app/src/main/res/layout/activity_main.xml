@@ -21,15 +21,27 @@ tools:context="br.com.gustavolobato.imc2.MainActivity">
         android:hint="Altura(cm)"
         android:inputType="numberDecimal" />
 
-<Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Calcular IMC"
-    android:onClick="btnCalcularOnClick" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SEXO:" />
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/lblResultado"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCalcularOnClick"
+        android:text="Calcular IMC" />
 
 </LinearLayout>
