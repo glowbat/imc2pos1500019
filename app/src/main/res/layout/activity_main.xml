@@ -44,4 +44,8 @@ tools:context="br.com.gustavolobato.imc2.MainActivity">
         android:onClick="btnCalcularOnClick"
         android:text="Calcular IMC" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblResultado"/>
 </LinearLayout>
